@@ -5,6 +5,6 @@ public class PooledParticleSystem : MonoBehaviour
 {
    public void OnParticleSystemStopped()
    {
-      PoolManager.instance.Release(gameObject);
+      PoolManager.Instance.Release(gameObject);
    }
 }

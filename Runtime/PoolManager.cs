@@ -128,7 +128,7 @@ namespace HCGames.Utilities
                 if (go != null)
                 {
                     go.SetActive(false);
-                    go.transform.SetParent(instance.transform);
+                    go.transform.SetParent(Instance.transform);
                 }
 
                 _pool.Push(obj);
