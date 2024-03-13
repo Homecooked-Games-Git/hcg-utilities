@@ -5,7 +5,8 @@
   "description": "HC Utilities",
   "unity": "2019.1",
   "dependencies": {
-    "com.unity.textmeshpro": "3.0.6"
+    "com.unity.textmeshpro": "3.0.6",
+    "com.hcg.extensions" : "1.0.0"
   },
   "author": {
     "name" : "Homecooked Games"
