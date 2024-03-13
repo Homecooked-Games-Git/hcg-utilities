@@ -1,0 +1,18 @@
+﻿using UnityEngine;
+
+namespace HCGames.Utilities
+{
+    public static class ColorPresets
+    {
+        public static readonly UnityEngine.Color[] RarityColors =
+        {
+            new Color32(0xB7, 0xB7, 0xB7, 0xFF),
+            new Color32(0x93, 0xC4, 0x7D, 0xFF),
+            new Color32(0x6D, 0x9E, 0xEB, 0xFF),
+            new Color32(0xCC, 0x5E, 0xCB, 0xFF),
+            new Color32(0xFB, 0x9B, 0x38, 0xFF),
+            new Color32(0x66, 0xC9, 0xC9, 0xFF),
+            new Color32(0xE0, 0x66, 0x66, 0xFF)
+        };
+    }
+}

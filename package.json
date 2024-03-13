@@ -1,0 +1,16 @@
+{
+  "name": "com.hcg.utilities",
+  "version": "1.0.0",
+  "displayName": "Utilities",
+  "description": "HC Utilities",
+  "unity": "2019.1",
+  "dependencies": {
+    "com.unity.textmeshpro" : "3.0.6",
+    "com.demigiant.dotween": "https://github.com/Demigiant/dotween.git#upm"
+  },
+  "author": {
+    "name" : "Homecooked Games"
+  },
+  "keywords": [
+  ]
+}
