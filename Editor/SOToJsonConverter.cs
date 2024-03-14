@@ -27,7 +27,7 @@ namespace HCGames.Extensions.Editor
                 // Automatically convert to JSON when a new Scriptable Object is dragged in
                 if (scriptableObject != null)
                 {
-                    jsonRepresentation = JsonUtility.ToJson(scriptableObject, true);
+                    jsonRepresentation = JsonConvert.SerializeObject(scriptableObject, Formatting.Indented);
                 }
             }
 
